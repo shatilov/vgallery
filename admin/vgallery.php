@@ -1,0 +1,1 @@
+<h1>Сейчас здесь отображается содержимое файла administrator\components\com_hello\hello.php</h1>

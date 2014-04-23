@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<metadata>
+	<layout title="Галлерея альбомов пользователя">
+		<message>Отображает альбомы пользователя</message>
+    </layout>
+    <fields name="request">
+        <fieldset name="request">
+                        <field
+                                id="api_id"
+                                name="api_id"
+                                type="text"
+                                label="Укажите api_id"
+                                description="api_id приложения в контакте"
+                                default="api_id"
+                        ></field>
+                        <field
+                                id="secret_key"
+                                name="secret_key"
+                                type="text"
+                                label="Укажите secret_key"
+                                description="secret_key приложения в контакте"
+                                default="secret_key"
+                        ></field>
+                        <field
+                                id="group_id"
+                                name="group_id"
+                                type="text"
+                                label="Укажите id группы в контакте"
+                                description="id группы в контакте"
+                                default="group_id"
+                        ></field>
+        </fieldset>
+	</fields>
+</metadata>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Обратите внимание что method изменился на upgrade (обновление) -->
+<extension type="component" version="1.6.0" method="upgrade">
+        <name>vgallery</name>
+        <creationDate>May 2013</creationDate>
+        <author>Mikhail Shatilov</author>
+        <authorEmail>mihail.shatilov@gmail.com</authorEmail>
+        <authorUrl>http://print-anywhere.ru</authorUrl>
+        <copyright>нет информации</copyright>
+        <license>нет информации</license>
+        <version>0.0.1</version>
+        <description>Компонент отображения фотографий из вашей группы "вконтакте"</description>
+ 
+        <files folder="site">
+                <filename>index.html</filename>
+                <filename>vgallery.php</filename>
+				<!-- Добавляем контроллер -->
+				<filename>controller.php</filename>
+				<!-- Добавляем папку Вида -->
+				<folder>views</folder>
+				<!-- Добавляем модель -->
+				<folder>models</folder>
+        </files>
+ 
+        <administration>
+                <menu>vgallery</menu>
+                <files folder="admin">
+                        <filename>index.html</filename>
+                        <filename>vgallery.php</filename>
+                </files>               
+        </administration>
+</extension>
